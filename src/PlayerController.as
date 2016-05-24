@@ -113,11 +113,12 @@ package
 			if (buttons_pressed.indexOf(39) >= 0){
 				
 				
-				
+				trace("Player pressed on the right button");
 				var newbullet:Bullet = new Bullet("right");
 				newbullet.x = this.player.x
 				newbullet.y = this.player.y
 				this._stage.addChild(newbullet);
+				
 			}
 			
 			
