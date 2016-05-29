@@ -71,7 +71,11 @@ package
 			var danielsController:PlayerController = new PlayerController(stage);
 			danielsController.setPlayer(danielsplayer);
 			
-	
+			addChild(new Flyer());
+			addChild(new Flyer());
+			addChild(new Flyer());
+			addChild(new Flyer());
+			addChild(new Flyer());
 			stage.addEventListener(Event.ENTER_FRAME,everyframe);
 			
 		}

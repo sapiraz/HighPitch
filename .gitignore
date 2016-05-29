@@ -1,0 +1,5 @@
+.project
+.settings/
+bin/.HighPitch.swf.stamp
+bin/HighPitch-app.xml
+bin/HighPitch.swf
