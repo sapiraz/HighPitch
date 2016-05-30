@@ -27,14 +27,10 @@ package {
 			var distance:Point = new Point(currPos.x - target.x, currPos.y - target.y);
 			x -= distance.x / speed;
 			y -= distance.y / speed;
-			
 			target.x += Math.floor(Math.random()*2) == 0 ? speed : -speed;
 			target.y += Math.floor(Math.random()*2) == 0 ? speed : -speed;
-			
 			target.x = target.x > stage.stageWidth ? stage.stageWidth : (target.x < 0 ? 0 : target.x);
 			target.y = target.y > stage.stageHeight ? stage.stageHeight : (target.y < 0 ? 0 : target.y);
-			
-			
 		}
 	}
 }
