@@ -1,6 +1,8 @@
 package 
 {
 	
+	import flash.display.BitmapData;
+	import flash.display.Bitmap;
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -77,6 +79,11 @@ package
 			addChild(new Flyer());
 			addChild(new Flyer());
 			stage.addEventListener(Event.ENTER_FRAME,everyframe);
+			
+			
+			
+			
+			
 			
 		}
 		

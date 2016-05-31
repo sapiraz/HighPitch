@@ -31,10 +31,6 @@ package
 		
 		public function init(e:Event = null):void { 	
 			
-
-			
-
-			
 			//Add graphics
 			this.mygraphics = new player_animations();
 
